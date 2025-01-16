@@ -1,6 +1,6 @@
 import "./popular.css";
-import productData from "../../src/assets/ProductData";
-import Items from "../items/Items";
+import productData from "../Assets/ProductData";
+import Items from "../items/Item";
 
 const Popular = () => {
   return (
@@ -13,8 +13,8 @@ const Popular = () => {
             <Items
               key={i}
               id={item.id}
-              name={item.productName}
-              image={item.productImage}
+              name={item.name}
+              image={item.image}
               newPrice={item.newPrice}
               oldPrice={item.oldPrice}
               category={item.category}
