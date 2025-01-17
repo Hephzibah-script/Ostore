@@ -1,4 +1,6 @@
 import Hero from "../components/hero/hero";
+import NewCollections from "../components/newCollections/NewCollections";
+import Offers from "../components/offers/Offers";
 import Popular from "../components/popular/Popular";
 
 const Shop = () => {
@@ -6,6 +8,8 @@ const Shop = () => {
     <div>
       <Hero />
       <Popular />
+      <Offers />
+      <NewCollections />
     </div>
   );
 };
