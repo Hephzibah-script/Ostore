@@ -1,10 +1,9 @@
 .NewCollections {
-  margin-top: 50px;
+  margin: 50px 0 70px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  height: 90vh;
 }
 
 .NewCollections h1 {

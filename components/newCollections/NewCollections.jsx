@@ -1,5 +1,5 @@
 import "./newCollections.css";
-import newCollection from "../Assets/ProductData";
+import newCollection from "../Assets/NewCollections";
 import Item from "../items/Item";
 
 const NewCollections = () => {
